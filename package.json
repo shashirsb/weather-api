@@ -1,0 +1,39 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "description": "microservices weather api",
+  "main": "index.js",
+  "scripts": {
+    "server": "tsc && nodemon ./dist/index.js",
+    "start": "node ./dist/index.js",
+    "ts:watch": "tsc -w",
+    "build": "tsc",
+    "dev": "ts-node ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashirsb/weather-api.git"
+  },
+  "author": "Shashi Bhushan Ramachandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashirsb/weather-api/issues"
+  },
+  "homepage": "https://github.com/shashirsb/weather-api#readme",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.9.5",
+    "@types/request": "^2.48.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "http": "0.0.0",
+    "logger": "0.0.1",
+    "request": "^2.88.0",
+    "tslint": "^5.13.0",
+    "typescript": "^3.3.3333"
+  }
+}
